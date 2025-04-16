@@ -1,0 +1,96 @@
+
+
+
+header{border: 5px solid blue ;border-style:double ;border-width: auto;font-style: italic;}
+h1{margin: 0;padding: 10px;}
+
+nav{float: left;
+    width: auto;
+   
+    padding: 5px;
+    margin-right: 20px;
+    margin-top:20px;
+border:5px solid blue;
+border-width:8px;
+border-style:double;
+position: fixed;}
+nav ul { list-style-type: none;}
+nav a { text-decoration: none;padding-right: 10px;font-style: italic; }
+nav li { display: flex; }
+
+
+body{ 
+      font-size:25px;
+      font-style: italic;
+      text-align: center;
+      padding: 0px;
+      margin-left: 0px;
+        
+
+      p{ padding: 200px;}
+
+      a{ color: blue;}
+      a:visited{ color: green;}
+      a:hover{ color: red;}
+      a:active{ color: yellow;}
+
+      h2 { color: blue;
+           font-size: 25px;
+           font-style: italic;
+           font-weight:bold;
+           text-align: center;}
+      h3 { color: blue;
+           font-size: 25px;
+           font-style: italic;
+           font-weight:bold;
+           text-align: center;}
+      h4 { color: blue;
+           font-size: 25px;
+           font-style: italic;
+           font-weight:bold;
+           text-align: center;}
+      h5 { color: blue;
+           font-size: 25px;
+           font-style: italic;
+           font-weight:bold;
+           text-align: center;}
+      h6 { color: blue;
+           font-size: 25px;
+           font-style: italic;
+           font-weight:bold;
+           text-align: center;}
+      h7 { color: blue;
+           font-size: 25px;
+           font-style: italic;
+           font-weight:bold;
+           text-align: center;}
+      h8 { color: blue;
+           font-size: 25px;
+           font-style: italic;
+           font-weight:bold;
+           text-align: center;}
+
+      
+      background-image:url(image2/meal.jpg);
+          background-size: length;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          border: 5px solid transparent;
+          background-blend-mode:lighten;
+          height:100%;
+          width:100%;
+}
+                
+
+main{ margin-right:0px;
+      font-size: 25px;
+      text-align: center;
+      padding: 10px;
+      font-style: italic;}
+
+footer{
+        
+       text-align: center;
+       font-style: italic;}
+
