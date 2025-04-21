@@ -226,6 +226,13 @@ footer{
   padding: 10px;
   
 }
+
+article{
+  font-family:Arial, Helvetica, Verdana, Times New Roman;
+  ::-webkit-scrollbar{
+    width:10px;
+  }
+}
   </style>
 </head>
 <body>
@@ -312,4 +319,5 @@ footer{
 
 </body>
 </html>
+
 
