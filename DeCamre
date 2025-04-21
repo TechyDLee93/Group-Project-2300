@@ -57,7 +57,7 @@
   z-index: -1;
   position: relative;
   left: 600px;
-  top:-550px;
+  top:-650px;
   
   
     }
@@ -73,7 +73,7 @@
     
 
 iframe{
-  top: 300px;
+  top: 280px;
   
   position: relative;
   left:-30px ;
@@ -219,6 +219,13 @@ body {
   padding: 10px;
   margin-right: 10px;
 }
+footer{
+ text-align:center;
+ background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 10px;
+  
+}
   </style>
 </head>
 <body>
@@ -244,7 +251,7 @@ body {
     <span class ="text1"><h1>USA: <span class="B">"Biscuits</span> and <span class="G">Gravy</span></h1></span>
     
       <div class ="whitesection">
-      
+      <article>
           <p class="content_txt"> Biscuits and Gravy is a classic Southern U.S. breakfast dish.<br>
          It’s made with fluffy biscuits smothered in creamy sausage gravy. The gravy is rich, peppery, and usually made from pork sausage, flour, and milk.<br>
          It’s cozy, hearty, and super satisfying!
@@ -276,6 +283,9 @@ body {
       <span class="text2"> <br> Spoon gravy over warm biscuits and serve!</br></span>
       
     </div>
+  </article>
+
+  <footer>De'Camre's Part</footer>
 
 
 <div class="images ">
@@ -302,3 +312,4 @@ body {
 
 </body>
 </html>
+
