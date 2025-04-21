@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Webpage Layout</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      
+    }
+
+    body {
+      display: flex;
+      font-family: Arial, sans-serif;
+      height: 100vh;
+      background-color: #CC6600;
+    }
+
+    nav {
+      width: 200px;
+      background-color: #333;
+      color: white;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin-bottom: 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      background-color: #333;
+    }
+
+    .content {
+      flex: 1;
+      padding: 20px;
+     
+      color:#000000;
+      
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .images{
+     top:auto;
+  z-index: -1;
+  position: relative;
+  left: 600px;
+  top:-550px;
+  
+  
+    }
+
+.image1{
+  border: #333 solid 2px;
+}
+
+
+.image2{
+  border: #333 solid 2px;
+}
+    
+
+iframe{
+  top: 300px;
+  
+  position: relative;
+  left:-30px ;
+  margin-left: 10px;
+}
+
+.text1{
+  color: white;
+            font-size: 15px;
+            font-weight: 10;
+            letter-spacing: 1px;
+            margin-bottom: 3px;
+            
+            position: relative;
+            animation: text 3s 1;
+}
+.text2{
+  font-size: 25px;
+            color: #0000FF;
+            font-family: Georgia, serif;
+}
+
+@keyframes text {
+            2% {
+              color: #FF0000;
+                margin-bottom: 5px;
+                background-color: #FFFFFF;
+                transition-timing-function: 10s;
+            }
+            5%{
+              
+              
+                letter-spacing: 2px;
+                margin-bottom: 5px;
+            }
+            10% {
+                letter-spacing: 2px;
+                margin-bottom: 5px;
+            }
+            20% {
+              color: #4169E1;
+              transition-timing-function: 5;
+                letter-spacing: 2px;
+                margin-bottom: 5px;
+            }
+            30% {
+                letter-spacing: 2px;
+                margin-bottom: 5px;
+            }
+            40% {
+                letter-spacing: 2px;
+                margin-bottom: 5px;
+              }
+            55% {
+                letter-spacing: 2px;
+                margin-bottom: 5px;
+            }
+        }
+
+.B{
+  color:#F4A460;
+  font-size: 45px;
+}
+        
+.G{
+  font-size: 45px;
+  color:#8B4513;
+}
+
+body {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, #FF0000 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+
+    25% {
+        transform: translateX(-25%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    75% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(1);
+    }
+}
+
+.whitesection{
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 10px;
+  margin-right: 10px;
+}
+  </style>
+</head>
+<body>
+  <div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+ </div>
+  <nav>
+    <ul>
+      <li><a href="#">Apofiah</a></li>
+      <li><a href="#">Darianne</a></li>
+      <li><a href="#">Djamila</a></li>
+      <li><a href="#">India</a></li>
+      <li><a href="#">Jaali</a></li>
+      <li><a href="#">Aboubacar</a></li>
+      <li><a href="#">Tiryn</a></li>
+      <li><a href="DeCamre.html">De'Camre</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <span class ="text1"><h1>USA: <span class="B">"Biscuits</span> and <span class="G">Gravy</span></h1></span>
+    
+      <div class ="whitesection">
+      
+          <p class="content_txt"> Biscuits and Gravy is a classic Southern U.S. breakfast dish.<br>
+         It’s made with fluffy biscuits smothered in creamy sausage gravy. The gravy is rich, peppery, and usually made from pork sausage, flour, and milk.<br>
+         It’s cozy, hearty, and super satisfying!
+          
+        
+      
+      <h3> Ingredients:</h3><br>
+       
+        2 cups + 2 tbsp all-purpose flour,<br>
+         1 tbsp baking powder, ½ tsp salt, <br>
+         1 stick cold butter, ¾ cup buttermilk,<br>
+          ½ lb pork sausage, 2 cups milk, <br>
+         salt (to taste), black pepper (to taste)
+        
+      <h3>Preparation:</h3><br>
+      <strong>Making the biscuits:</strong><br>
+        Preheat oven to 425°F.<br>
+        Mix flour (minus 2 tbsp), baking powder, and salt.<br>
+        Cut in butter until crumbly.<br>
+        Add buttermilk and stir into a dough.<br>
+        Roll out, cut into circles, and bake on a tray for 12–15 minutes until golden.<br>
+      
+     <strong>Making the Gravy:</strong>
+      In a pan, cook sausage until browned. <br>
+        Break it up as it cooks.<br>
+        Sprinkle in flour, stir for 1–2 minutes (this makes a roux).<br>
+        Slowly add milk while stirring.<br>
+        Let it simmer until thick. Season with salt and lots of black pepper.<br>
+      <span class="text2"> <br> Spoon gravy over warm biscuits and serve!</br></span>
+      
+    </div>
+
+
+<div class="images ">
+          <img class="image1" src="5ee639b6-4435-4ce3-bcb5-439ece78a084.jpg" alt="U.S. Flag" width="200" height="200">
+          <img class="image2" src="Here's a classic recipe for Biscuits and Gravy , a….jpg" alt="Biscuits and Gravy" width="200" height="200">
+        </div>
+       </p>
+
+  </div>
+
+   
+
+  <iframe  width="560" height="315"
+  src="https://www.youtube.com/embed/watch?v=DDMiv6vyvWM"
+      title="Country Style Sausage and Gravy | Biscuits and Gravy" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; 
+             encrypted-media; gyroscope; 
+             picture-in-picture; web-share" referrerpolicy="strict-origin-when-corss-origin"
+       allowfullscreen>
+  </iframe>
+
+
+
+</body>
+</html>
