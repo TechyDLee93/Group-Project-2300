@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="image2/food.jpg">
+    <title>Foodpedia</title>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+} 
+section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #BB1900, #FD6F01, #FFB000);
+    overflow: hidden;
+    background-size: 400% 400%;
+    animation: gradient-bg 15s ease infinite;
+
+}
+ section .wave
+ {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 100px;
+     background: url("image2/wave.png");
+     background-size: 1000px 100px;
+     
+ }
+
+@keyframes gradient-bg
+{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
+
+
+section .wave.water
+{
+   animation: animate 25s linear infinite;
+   z-index:5;
+   opacity:1;
+   animation-delay: 0s;
+   bottom:0;
+
+}
+
+
+
+
+@keyframes animate
+{
+   0%{
+       background-position-x: 0;
+   }
+   100%{
+       background-position-x: 1000px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+</style>   
+</head>
+<body>
+   
+    <section>
+<link rel="stylesheet" type="text/css" href="structure2.css">
+<header>
+
+<h1><center>Foodpedia</center></b></h1>
+
+
+<nav>
+   <ul>
+       <li><a href="Apofiah.html">Italian food</a></li>
+       <li><a href="Darianne.html">Jamaican Food</a></li>
+       <li><a href="Djamila.html">Burkina's food</a></li>
+       <li><a href="India.html">Indian's food</a></li>
+       <li><a href="Jaali.html">Jaali</a></li>
+       <li><a href="Aboubacar.html">Cake</a></li>
+       <li><a href="DeCamre.html"></a></li>
+   </ul>
+</nav>
+
+</header>
+        <center>This group project was brought to you by: Apofiah, Jaalil, Tyrin , India , Djamila , Darianne & Aboubacar</center>
+<br>
+<p>For this group project, we aim to showcase the diverse and vibrant world of food through a collection of images that highlight various cuisines, flavors, and presentation styles from around the globe. Our goal is to celebrate the cultural significance of food, explore the creativity behind different dishes, and bring attention to the rich history and traditions associated with what we eat. From savory street food to elegant fine dining, this project will feature a wide array of food types, offering a visual feast that appeals to the senses and sparks curiosity about the culinary arts. 
+
+Each image tells a story, whether it's a home-cooked family recipe passed down through generations or a modern, innovative dish that challenges traditional boundaries. By featuring foods from different regions, we hope to highlight how ingredients, techniques, and cultural practices shape the way we experience food and bring people together. Ultimately, this project is not just about the food itself, but about the shared human experience that it represents, fostering connection, appreciation, and understanding across cultures.</p>
+
+        <div class="wave water"></div>
+        
+
+    </section>
+
+</body>
+</html>
